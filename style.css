@@ -22,7 +22,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 88px;
-  background-image: url("/img/bgtop.svg");
+  background-image: url("/taxgig/img/bgtop.svg");
   background-repeat: no-repeat;
   background-position: top right;
   -ms-grid-row: 1;
@@ -76,7 +76,7 @@
 }
 
 .be-a-pro::after {
-  content: url("/img/arrow.svg");
+  content: url("/taxgig/img/arrow.svg");
   position: absolute;
   right: -32px;
 }
@@ -118,7 +118,7 @@
   -ms-grid-column-span: 2;
   grid-area: content;
   padding-top: 72px;
-  background-image: url("/img/bgtop.svg");
+  background-image: url("/taxgig/img/bgtop.svg");
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: -88px;
@@ -251,7 +251,7 @@
 }
 
 .job__more::after {
-  content: url("/img/Arrow Right.svg");
+  content: url("/taxgig/img/Arrow Right.svg");
   position: absolute;
   right: -48px;
   top: 1px;
@@ -323,7 +323,7 @@
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-area: footer;
-  background-image: url("/img/bg.svg");
+  background-image: url("/taxgig/img/bg.svg");
   background-repeat: no-repeat;
   background-size: contain;
   color: #FDFDFD;
@@ -477,7 +477,7 @@
 
 @media only screen and (min-width: 320px) and (max-width: 766px) {
   .footer {
-    background-image: url("/img/bgmobile.svg");
+    background-image: url("/taxgig/img/bgmobile.svg");
     background-size: cover;
   }
   .footer__in-touch {
